@@ -4,11 +4,7 @@
 # here. This info is used to list commands in various places. Each
 # command is on one line followed by one or more attributes.
 #
-# The first attribute group is mandatory and indicates the command
-# type. This group includes:
-#
-#  in commands must not
-# specify any of these attributes.
+
 #
 # "complete" attribute is used to mark that the command should be
 # completable by git-completion.bash. Note that by default,
