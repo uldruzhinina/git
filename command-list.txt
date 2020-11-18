@@ -7,31 +7,7 @@
 # The first attribute group is mandatory and indicates the command
 # type. This group includes:
 #
-#   mainporcelain
-#   ancillarymanipulators
-#   ancillaryinterrogators
-#   foreignscminterface
-#   plumbingmanipulators
-#   plumbinginterrogators
-#   synchingrepositories
-#   synchelpers
-#   purehelpers
-#
-# The type names are self explanatory. But if you want to see what
-# command belongs to what group to get a better picture, have a look
-# at "git" man page, "GIT COMMANDS" section.
-#
-# Commands of type mainporcelain can also optionally have one of these
-# attributes:
-#
-#   init
-#   worktree
-#   info
-#   history
-#   remote
-#
-# These commands are considered "common" and will show up in "git
-# help" output in groups. Uncommon porcelain commands must not
+#  in commands must not
 # specify any of these attributes.
 #
 # "complete" attribute is used to mark that the command should be
